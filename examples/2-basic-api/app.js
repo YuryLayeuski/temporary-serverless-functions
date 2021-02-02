@@ -1,5 +1,5 @@
 const result = document.querySelector('.result')
-
+// comment
 
 const fetchData = async () => {
   try {
