@@ -1,0 +1,9 @@
+const items = require('./../assets/data');
+
+// domain/.netlify/functions/2-basic-api
+exports.handler = async(event, context) => {
+  return {
+    statusCode: 200,
+    body: JSON.stringify(items),
+  }
+}
